@@ -3,27 +3,32 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BankingAPI.Api.Models
 {
+
     public class TransactionsModel
     {
+        [Key]
         public int Id { get; set; }
 
-        public required TransactionTypeEnum TransactionType { get; set; }
+        [Required]
+        public TransactionTypeEnum TransactionType { get; set; }
 
-        public required string Description { get; set; }
+        [Required]
+        public decimal Amount { get; set; }
 
-        public required decimal Amount { get; set; }
+        [Required]
+        public StatusTransactionEnum Status { get; set; }
 
-        public required StatusTransactionEnum Status { get; set; }
+        [Required]
+        public DateTime DateCreation { get; set; }
 
-        public required DateTime DateCreation { get; set; }
+        [Required]
+        public DateTime DateLastUpdate { get; set; }
 
-        public required DateTime DateLastUpdate { get; set; }
+        [Required]
+        public decimal Balance { get; set; }
 
-        // Account
         public int AccountBankId { get; set; }
-
         [ForeignKey(nameof(AccountBankId))]
-        public AccountBankModel? AccountBank { get; set; }
-
+        public AccountBankModel AccountBank { get; set; }
     }
 }

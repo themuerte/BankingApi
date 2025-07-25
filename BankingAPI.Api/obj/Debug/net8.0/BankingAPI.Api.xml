@@ -16,5 +16,29 @@
         <member name="M:BankingAPI.Api.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:BankingAPI.Api.Migrations.addFieldsMissings">
+            <inheritdoc />
+        </member>
+        <member name="M:BankingAPI.Api.Migrations.addFieldsMissings.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BankingAPI.Api.Migrations.addFieldsMissings.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BankingAPI.Api.Migrations.addFieldsMissings.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:BankingAPI.Api.Migrations.AddSexToClient">
+            <inheritdoc />
+        </member>
+        <member name="M:BankingAPI.Api.Migrations.AddSexToClient.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BankingAPI.Api.Migrations.AddSexToClient.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BankingAPI.Api.Migrations.AddSexToClient.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>

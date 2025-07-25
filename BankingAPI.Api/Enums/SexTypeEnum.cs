@@ -1,4 +1,4 @@
-namespace WebApiPerson.Models
+namespace BankingAPI.Api.Models
 {
     public enum SexTypeEnum
     {

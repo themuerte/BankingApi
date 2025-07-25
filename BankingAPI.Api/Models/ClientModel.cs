@@ -10,7 +10,16 @@ namespace BankingAPI.Api.Models
         public int Id { get; set; }
 
         [Required]
+        public String Name { get; set; }
+
+        [Required]
+        public String LastName { get; set; }
+
+        [Required]
         public long AccountNumber { get; set; }
+
+        [Required]
+        public SexTypeEnum Sex { get; set; }
 
         [Required]
         public decimal Balance { get; set; }
