@@ -156,3 +156,5 @@
 /home/tizopcbackend/workspace/techinical_test/lafise/BankingApi/BankingAPI.Test/obj/Debug/net8.0/BankingAPI.Test.pdb
 /home/tizopcbackend/workspace/techinical_test/lafise/BankingApi/BankingAPI.Test/obj/Debug/net8.0/BankingAPI.Test.genruntimeconfig.cache
 /home/tizopcbackend/workspace/techinical_test/lafise/BankingApi/BankingAPI.Test/obj/Debug/net8.0/ref/BankingAPI.Test.dll
+/home/tizopcbackend/workspace/techinical_test/lafise/BankingApi/BankingAPI.Test/bin/Debug/net8.0/BankingAPI.Api.xml
+/home/tizopcbackend/workspace/techinical_test/lafise/BankingApi/BankingAPI.Test/obj/Debug/net8.0/BankingAPI.Test.sourcelink.json

@@ -4,5 +4,17 @@
         <name>BankingAPI.Api</name>
     </assembly>
     <members>
+        <member name="T:BankingAPI.Api.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:BankingAPI.Api.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BankingAPI.Api.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BankingAPI.Api.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>
