@@ -40,5 +40,17 @@
         <member name="M:BankingAPI.Api.Migrations.AddSexToClient.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:BankingAPI.Api.Migrations.AddBirthDateToClientModel">
+            <inheritdoc />
+        </member>
+        <member name="M:BankingAPI.Api.Migrations.AddBirthDateToClientModel.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BankingAPI.Api.Migrations.AddBirthDateToClientModel.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BankingAPI.Api.Migrations.AddBirthDateToClientModel.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>

@@ -1,5 +1,6 @@
 using BankingAPI.Api.Data;
 using Microsoft.EntityFrameworkCore;
+using BankingAPI.Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,8 +10,16 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new() { Title = "Banking API", Version = "v1" });
+    c.UseInlineDefinitionsForEnums();
+});
+
 builder.Services.AddDbContext<BankingDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<IBankingService, BankingService>();
 
 var app = builder.Build();
 

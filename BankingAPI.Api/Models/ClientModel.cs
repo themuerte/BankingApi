@@ -21,6 +21,10 @@ namespace BankingAPI.Api.Models
         [Required]
         public SexTypeEnum Sex { get; set; }
 
+        
+        [Required]
+        public DateTime BirthDate { get; set; } 
+
         [Required]
         public decimal Balance { get; set; }
 
